@@ -18,7 +18,7 @@ const listings = [
   {
     id: 3,
     pic: "/src/assets/3.jpg",
-    country: "US Virgin Islands",
+    country: "Virgin Islands",
     location: "Goa Resort",
     rating: 3.5,
     price: 485,
@@ -47,14 +47,14 @@ const listings = [
     rating: 3.2,
     price: 365,
   },
-  {
-    id: 7,
-    pic: "/src/assets/7.jpg",
-    country: "France",
-    location: "Trou-Aux-Biches",
-    rating: 3.3,
-    price: 499,
-  },
+  // {
+  //   id: 7,
+  //   pic: "/src/assets/7.jpg",
+  //   country: "France",
+  //   location: "Trou-Aux-Biches",
+  //   rating: 3.3,
+  //   price: 499,
+  // },
 ];
 
 export default listings;

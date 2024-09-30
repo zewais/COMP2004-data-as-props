@@ -1,3 +1,4 @@
+// This component will render a list of Listing components, passing the necessary props to each one.
 import Listing from "./Listing";
 export default function ListingContainer({ items }) {
   return (
@@ -21,3 +22,16 @@ export default function ListingContainer({ items }) {
     // </div>
   );
 }
+//NOT RECOMMENDED to use foreach method to iterate over the items array and render a Listing component for each item instead use the map method
+// export default function ListingContainer({ items }) {
+//     const listings = [];
+//     items.forEach((item) => {
+//       listings.push(<Listing key={item.id} {...item} />);
+//     });
+//     return (
+//       <div className="ListingContainer">
+//         <h1>Resorts</h1>
+//         {listings}
+//       </div>
+//     );
+//   }
